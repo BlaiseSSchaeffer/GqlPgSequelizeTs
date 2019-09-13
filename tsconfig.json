@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./server.ts",
+        "./schema/**/*.ts"
+    ],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es6",
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "moduleResolution": "node"
+    }
+    
+}
